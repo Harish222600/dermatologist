@@ -833,6 +833,27 @@ body.nav-active { overflow: hidden; }
 }
 
 .footer-bottom .social-link:is(:hover, :focus-visible) { background-color: var(--verdigris); }
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+textarea.input-field {
+  color: var(--eerie-black); /* Text color */
+  background-color: var(--alice-blue); /* Background color */
+  border: 1px solid #020101;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 100px; /* Adjust as needed */
+  resize: vertical; /* Allows users to resize vertically */
+
+}
+
 
 
 
@@ -889,7 +910,8 @@ body.nav-active { overflow: hidden; }
 
     --headline-lg: 8rem;
     --headline-md: 4.8rem;
-
+    --eerie-black: hsl(0, 0%, 13%);
+    --alice-blue: hsl(187, 25%, 94%);
   }
 
 
